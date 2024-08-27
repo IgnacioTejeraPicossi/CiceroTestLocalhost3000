@@ -1,1 +1,1 @@
-Project to automate the Cicero Web test (implemented on the Enonic platform).
+Project to automate the test of Cicero Web (implemented on the Enonic platform).
