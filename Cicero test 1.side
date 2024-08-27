@@ -1,0 +1,345 @@
+{
+  "id": "a3df142e-1643-4ba1-b864-b5e5378909ff",
+  "version": "2.0",
+  "name": "Cicero test 1",
+  "url": "https://cicero.oslo.no",
+  "tests": [{
+    "id": "7b2701ae-a6af-4ed8-afd2-d8f00e94be65",
+    "name": "Cicero Meny",
+    "commands": [{
+      "id": "85ebe05c-6381-4e26-af2f-b4d6297b780b",
+      "comment": "",
+      "command": "open",
+      "target": "/no",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "562370ee-e7cc-484e-a8d3-2c7607de5c62",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x752",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c5f9d3f5-2155-4230-a2e7-afd8d6586794",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Vår ekspertise",
+      "targets": [
+        ["linkText=Vår ekspertise", "linkText"],
+        ["css=.styles_menu__nfvg6 > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Vår ekspertise')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/header/div/div[2]/nav/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/no/tema')]", "xpath:href"],
+        ["xpath=//nav/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Vår ekspertise')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c9971df-3635-43e5-a383-1c82406435f1",
+      "comment": "Testing text",
+      "command": "assertText",
+      "target": "linkText=Vår ekspertise",
+      "targets": [
+        ["linkText=Vår ekspertise", "linkText"],
+        ["css=.styles_menu__nfvg6 > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Vår ekspertise')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/header/div/div[2]/nav/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/no/tema')]", "xpath:href"],
+        ["xpath=//nav/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Vår ekspertise')]", "xpath:innerText"]
+      ],
+      "value": "Vår ekspertise"
+    }, {
+      "id": "ae0368f6-eb56-4fb0-84ce-b9cecc6e07d2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tjenester",
+      "targets": [
+        ["linkText=Tjenester", "linkText"],
+        ["css=a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Tjenester')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/header/div/div[2]/nav/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/no/cicero-tjenester')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Tjenester')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe7de5a0-6c33-4663-99dd-fa15917a53dc",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Tjenester",
+      "targets": [
+        ["linkText=Tjenester", "linkText"],
+        ["css=a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Tjenester')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/header/div/div[2]/nav/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/no/cicero-tjenester')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Tjenester')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e9fb45e-dce5-4984-9d31-2d4b6fbaaa6f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Tjenester",
+      "targets": [
+        ["linkText=Tjenester", "linkText"],
+        ["css=.styles_current___a43v", "css:finder"],
+        ["xpath=//a[contains(text(),'Tjenester')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/header/div/div[2]/nav/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/no/cicero-tjenester')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Tjenester')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "157c69aa-f42a-4f40-b4ff-9369a45baf99",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Prosjekter",
+      "targets": [
+        ["linkText=Prosjekter", "linkText"],
+        ["css=.styles_menu__nfvg6 > a:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Prosjekter')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/header/div/div[2]/nav/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/no/prosjekter')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Prosjekter')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ce1b3e4-3a76-4ae6-b2b6-7432b571135e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Publikasjoner",
+      "targets": [
+        ["linkText=Publikasjoner", "linkText"],
+        ["css=a:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Publikasjoner')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/header/div/div[2]/nav/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/no/publikasjoner')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Publikasjoner')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "04c5f06a-4327-49cb-8bcd-88d8ca42d12f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Magasinet Klima",
+      "targets": [
+        ["linkText=Magasinet Klima", "linkText"],
+        ["css=a:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Magasinet Klima')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/header/div/div[2]/nav/a[5]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/no/klima')]", "xpath:href"],
+        ["xpath=//a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'Magasinet Klima')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b73bc0a-3a5b-4334-b570-fa1aaac6eae9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Arrangementer",
+      "targets": [
+        ["linkText=Arrangementer", "linkText"],
+        ["css=a:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Arrangementer')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/header/div/div[2]/nav/a[6]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/no/arrangementer')]", "xpath:href"],
+        ["xpath=//a[6]", "xpath:position"],
+        ["xpath=//a[contains(.,'Arrangementer')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f2d7ab0-6821-4e8b-bf2a-6ac3f2e0eed9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Arrangementer",
+      "targets": [
+        ["linkText=Arrangementer", "linkText"],
+        ["css=a:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Arrangementer')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/header/div/div[2]/nav/a[6]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/no/arrangementer')]", "xpath:href"],
+        ["xpath=//a[6]", "xpath:position"],
+        ["xpath=//a[contains(.,'Arrangementer')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "31bd7844-81da-424b-a2ec-5d28ccf9cc3a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Arrangementer",
+      "targets": [
+        ["linkText=Arrangementer", "linkText"],
+        ["css=.styles_current___a43v", "css:finder"],
+        ["xpath=//a[contains(text(),'Arrangementer')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/header/div/div[2]/nav/a[6]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/no/arrangementer')]", "xpath:href"],
+        ["xpath=//a[6]", "xpath:position"],
+        ["xpath=//a[contains(.,'Arrangementer')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "75c61b98-668d-410e-9265-5a677fd6f795",
+      "comment": "",
+      "command": "click",
+      "target": "css=.styles_menu__nfvg6",
+      "targets": [
+        ["css=.styles_menu__nfvg6", "css:finder"],
+        ["xpath=//div[@id='__next']/header/div/div[2]/nav", "xpath:idRelative"],
+        ["xpath=//nav", "xpath:position"],
+        ["xpath=//nav[contains(.,'Vår ekspertiseTjenesterProsjekterPublikasjonerMagasinet KlimaArrangementerAnsatteOm oss')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b7a8d1d-1722-408f-af23-93de0f93d89a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ansatte",
+      "targets": [
+        ["linkText=Ansatte", "linkText"],
+        ["css=a:nth-child(7)", "css:finder"],
+        ["xpath=//a[contains(text(),'Ansatte')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/header/div/div[2]/nav/a[7]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/no/ansatte')]", "xpath:href"],
+        ["xpath=//a[7]", "xpath:position"],
+        ["xpath=//a[contains(.,'Ansatte')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d92e0be-42e1-447e-9d68-f8a6660673dd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Om oss",
+      "targets": [
+        ["linkText=Om oss", "linkText"],
+        ["css=a:nth-child(8)", "css:finder"],
+        ["xpath=//a[contains(text(),'Om oss')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/header/div/div[2]/nav/a[8]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/no/om-oss')]", "xpath:href"],
+        ["xpath=//a[8]", "xpath:position"],
+        ["xpath=//a[contains(.,'Om oss')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "175adb46-8456-42c1-bc2a-810cbd6be3d6",
+    "name": "Cicero Vår ekspertise",
+    "commands": [{
+      "id": "054fcc84-586f-420b-b107-ece85f110b42",
+      "comment": "",
+      "command": "open",
+      "target": "/no",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1bf655be-5401-42ff-9aef-00bdc8668b77",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1408x1085",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1d5fec66-06ed-421c-a55a-c9acdd0897d3",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(1) > .styles_large__6JIQO .styles_shortcutTile__pbJec:nth-child(1) .styles_title__vOtVv",
+      "targets": [
+        ["css=div:nth-child(1) > .styles_large__6JIQO .styles_shortcutTile__pbJec:nth-child(1) .styles_title__vOtVv", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/main/div/div/div/div[2]/a/div/div", "xpath:idRelative"],
+        ["xpath=//a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "848e1654-7d20-45f1-8436-6b3f7f477649",
+      "comment": "",
+      "command": "click",
+      "target": "css=.styles_searchBarWrapper__hx652 input",
+      "targets": [
+        ["css=.styles_searchBarWrapper__hx652 input", "css:finder"],
+        ["xpath=(//input[@name='searchQuery'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/main/div/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d798f3cb-ee57-4015-96f6-2f27b5685a79",
+      "comment": "",
+      "command": "type",
+      "target": "css=.styles_searchBarWrapper__hx652 input",
+      "targets": [
+        ["css=.styles_searchBarWrapper__hx652 input", "css:finder"],
+        ["xpath=(//input[@name='searchQuery'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/main/div/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Arktis"
+    }, {
+      "id": "e72e6cd6-3ca4-4ae6-bd75-5484503450fe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.styles_searchBarWrapper__hx652 .styles_submitBtn__sj98V",
+      "targets": [
+        ["css=.styles_searchBarWrapper__hx652 .styles_submitBtn__sj98V", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/main/div/div/div/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//main/div/div/div/div/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd8d7d9c-b7d5-492a-814e-e9ccfc961aa6",
+      "comment": "",
+      "command": "click",
+      "target": "css=h3",
+      "targets": [
+        ["css=h3", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/main/div/div[2]/div/a/div[2]/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Arktis')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "447832d3-af07-4762-bfeb-6a803be3891f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.styles_oneColumn__c8URn:nth-child(1) .styles_image__KrnLv h3",
+      "targets": [
+        ["css=.styles_oneColumn__c8URn:nth-child(1) .styles_image__KrnLv h3", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/main/div/div/div[3]/div/div[2]/div/div/a/div[2]/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Ising på kraftledninger')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1212ecda-71da-4526-bc38-f0c8e71c6b58",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "0d9e7015-cd13-4db5-945b-13924b0b3bdf",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7b2701ae-a6af-4ed8-afd2-d8f00e94be65"]
+  }, {
+    "id": "5f54476f-d6ae-44aa-833a-fdf9419954e6",
+    "name": "Cicero test",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7b2701ae-a6af-4ed8-afd2-d8f00e94be65", "175adb46-8456-42c1-bc2a-810cbd6be3d6"]
+  }],
+  "urls": ["https://cicero.oslo.no/"],
+  "plugins": []
+}
