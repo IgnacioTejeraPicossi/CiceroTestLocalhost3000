@@ -111,6 +111,41 @@
       ],
       "value": "Ansatte"
     }, {
+      "id": "91cbdbe5-a150-46c0-a97c-694aa263c51c",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return \"a\"",
+      "targets": [],
+      "value": "myVar"
+    }, {
+      "id": "dfe24a8f-8ce4-458b-9595-4ca899d3d06c",
+      "comment": "",
+      "command": "//if",
+      "target": "$(myVar)===\"a\"",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "356f1d43-2883-4cde-bfd8-a9e1115b33d4",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b7a66e9e-7a99-4da8-b38e-8366d6835eed",
+      "comment": "",
+      "command": "//end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a12ff6ae-1a4f-42c1-9b48-0cf722bcc7e5",
+      "comment": "",
+      "command": "//assert",
+      "target": "output",
+      "targets": [],
+      "value": "a"
+    }, {
       "id": "df4df8ee-2e0a-4f71-903e-bf731e399bff",
       "comment": "",
       "command": "click",
